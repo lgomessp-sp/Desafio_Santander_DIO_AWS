@@ -17,6 +17,11 @@ Descrição de caso de uso:
 Uma instância EC2 hospeda o site da farmácia. 
 O servidor roda uma aplicação simples que exibe o catálogo de medicamentos, buscas por nome e categoria, e processa pedidos. A instância fica em uma subnet pública para receber tráfego da internet.
 
+Amazon S3 (Simple Storage Service)
+
+Foco: Armazenamento de imagens de produtos e arquivos estáticos
+Descrição de caso de uso: Bucket S3 armazena todas as fotos dos medicamentos (embalagens, bulas digitalizadas) e arquivos CSS/JavaScript do site. 
+
 
 Etapa 2: Banco de Dados
 Amazon RDS (Relational Database Service)
