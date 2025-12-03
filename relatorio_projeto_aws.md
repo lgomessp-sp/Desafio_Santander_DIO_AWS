@@ -46,7 +46,7 @@ A implementação de ferramentas na empresa *Abstergo Industries tem como espera
 
 [lista de anexos, como manuais, documentos, planilhas, entre outros]
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/lgomessp-sp/Desafio_Santander_DIO_AWS/blob/main/arquitetura.jpg "Logo Title Text 1")
 
 Assinatura do Responsável pelo Projeto:
 
