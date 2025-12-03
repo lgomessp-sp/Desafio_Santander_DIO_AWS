@@ -10,7 +10,7 @@ Este relatório apresenta o processo de implementação de ferramentas na empres
 Descrição do Projeto
 O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
 
-### Etapa 1: Hospedagem e Armazenamento Básico
+### Etapa 1: Hospedagem e Armazenamento
 
 Amazon EC2 (Elastic Compute Cloud)
 Foco: Servidor web para hospedar a aplicação da farmácia
@@ -22,6 +22,12 @@ Amazon S3 (Simple Storage Service)
 
 Foco: Armazenamento de imagens de produtos e arquivos estáticos
 Descrição de caso de uso: Bucket S3 armazena todas as fotos dos medicamentos (embalagens, bulas digitalizadas) e arquivos CSS/JavaScript do site. 
+
+Amazon EBS (Elastic Block Store)
+Disco persistente para o servidor EC2.
+Volume EBS anexado à instância EC2 armazena o sistema operacional, código da aplicação e logs. 
+Os dados persistem mesmo se a instância for reiniciada. 
+Snapshots semanais automáticos garantem backup dos dados críticos da aplicação.
 
 
 ### Etapa 2: Banco de Dados
